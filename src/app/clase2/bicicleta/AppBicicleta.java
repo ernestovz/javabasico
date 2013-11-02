@@ -17,7 +17,7 @@ public class AppBicicleta {
         bicicleta.setModelo("123");
         bicicleta.cambiarLlantas();
         System.out.println(bicicleta.getMarca());
-        
+        System.out.println(bicicleta.getModelo());
         
      }
     
