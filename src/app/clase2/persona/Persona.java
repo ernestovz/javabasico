@@ -13,13 +13,29 @@ public class Persona {
     public String nombre;
     public String apellidos;
     public int edad;
+    
 
     public Persona(String nombre, String apellidos, int edad) {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.edad = edad;
+        
     }
 
+    public Persona(){}
+    
+    
+    public void setNombreApellido(String nombre, String apellido){
+        this.nombre = nombre;
+        this.apellidos = apellido;
+        }
+    
+    
+    public void printNombreCompleto(){
+        System.out.println("ernestovigil");
+    }
+               
+        
     public String getNombre() {
         return nombre;
     }

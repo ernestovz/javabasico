@@ -5,19 +5,19 @@
 package app.clase2.bicicleta;
 
 /**
- *
+ * para cambiar el nombre a todas las variables CONTROL + R
  * @author alumno
  */
 public class AppBicicleta {
 
     public static void main(String[] args) {
-        Bicicleta bicicleta = new Bicicleta();
+        Bicicleta nike = new Bicicleta();
         /* control + space para completa clase */
-        bicicleta.setMarca("monark");
-        bicicleta.setModelo("123");
-        bicicleta.cambiarLlantas();
-        System.out.println(bicicleta.getMarca());
-        System.out.println(bicicleta.getModelo());
+        nike.setMarca("monark");
+        nike.setModelo("123");
+        nike.cambiarLlantas();
+        System.out.println(nike.getMarca());
+        System.out.println(nike.getModelo());
         
      }
     

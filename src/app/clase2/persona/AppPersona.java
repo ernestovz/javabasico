@@ -15,6 +15,7 @@ public class AppPersona {
     public static void main(String[] args) {
 
         Persona ernesto = new Persona("Jose", "EA", 25);
+        
 
         System.out.println("Atributos del Objeto");
         System.out.println("Nombre:  " + ernesto.getNombre());
@@ -22,7 +23,10 @@ public class AppPersona {
         System.out.println("Edad:  " + ernesto.getEdad());
         
         
-
+        Persona jose = new Persona();
+        jose.setNombreApellido("enesto", "vigil");
+        jose.printNombreCompleto();
+        
 
     }
 }
