@@ -4,10 +4,19 @@
  */
 package app.clase3.interfases.posicion;
 
-public class Auto {
+public class Auto implements Position {
     private int numeroPuertas;
     private String color;
-
+    
+    private double longitud;
+    private double latitud;
+    
+public Auto(){
+    this.longitud = 20;
+    this.latitud = 10;
+}
+    
+    
     public int getNumeroPuertas() {
         return numeroPuertas;
     }
@@ -22,6 +31,16 @@ public class Auto {
 
     public void setColor(String color) {
         this.color = color;
+    }
+
+    @Override
+    public double getLongitud() {
+       return this.longitud;
+    }
+
+    @Override
+    public double getLatitud() {
+        return this.latitud;
     }
     
     
