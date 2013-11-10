@@ -8,7 +8,7 @@ package app.clase2.animales;
  *
  * @author alumno
  */
-public class Tigre extends Animal {
+public class Tigre extends Animale {
 
     public Tigre(String nombre, int edad) {
 
