@@ -11,9 +11,9 @@ public class Auto implements Position {
     private double longitud;
     private double latitud;
     
-public Auto(){
-    this.longitud = 20;
-    this.latitud = 10;
+public Auto(double longitud, double latitud){
+    this.longitud = longitud;
+    this.latitud = latitud;
 }
     
     

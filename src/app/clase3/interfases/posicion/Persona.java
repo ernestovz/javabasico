@@ -12,9 +12,14 @@ public class Persona implements Position {
     private double longitud;
     private double latitud;
     
-public Persona(){
-    this.longitud = 20;
-    this.latitud = 10;
+    /**
+     *
+     * @param longitud
+     * @param latitud
+     */
+    public Persona(double longitud, double latitud){
+    this.longitud = longitud;
+    this.latitud = latitud;
 }
     
     public String getNombre() {
