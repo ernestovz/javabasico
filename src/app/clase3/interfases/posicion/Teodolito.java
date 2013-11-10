@@ -13,6 +13,8 @@ public class Teodolito {
         Position carro = new Auto(20, 30);
         Position jose = new Persona(50, 20);
         Teodolito.getDistancia(carro, jose);
+    
+    
     }
     
     public static void getDistancia(Position p1, Position p2)    {
