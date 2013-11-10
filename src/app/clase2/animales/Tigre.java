@@ -25,4 +25,11 @@ public class Tigre extends Animal {
         System.out.println("ppppppppppppppp");
     }
 
+    @Override
+    public void comer() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+    
+
 }
